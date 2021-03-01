@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# rd-frontend-challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um desafio técnico para Desenvolvedor Frontend. Algumas partes do código desta aplicação foram propositalmente subtraídas. Nestes pontos, existirá uma indicação informando que algo havia ali. Sua tarefa é identificar o que está faltando e completar o código para que a aplicação volte a funcionar.
 
-## Available Scripts
+## Tecnologias utilizadas
 
-In the project directory, you can run:
+HTML5, JavaScript e CSS. Simples assim. Sem libs, sem frameworks, sem dependências externas.
+Você não deve usar nenhum CSS Framework (Bootstrap, PureCss, etc.);
 
-### `npm start`
+## O que esperamos?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Esperamos um código limpo e bem escrito, seguindo boas práticas de desenvolvimento.
+Esperamos requisições assíncronas.
+Esperamos que a estilização CSS esteja de acordo com a apresentada no layout. Atenção aos detalhes é importante.
+O uso de transitions no CSS para as interações é bem vista, mas às vezes "menos" é "mais".
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A aplicação deve consumir os dados de `http://www.mocky.io/v2/5dba690e3000008c00028eb6` e da url proveniente nesta requisição. O fake token gerado após efetuar o login, deve persistir pelo tempo especificado. 
 
-### `npm test`
+A sessão deve durar 5 min. Não é necessário deslogar automaticamente, mas após um refresh estando findada a sessão, o usuário deve ser direcionado para a tela de login.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Não existe uma real validação nos dados de login, mas é preciso que seja um e-mail válido (de acordo com especificação do HTML5) e a string de password seja maior do que 5 caracteres.
 
-### `npm run build`
+Neste desafio testes não são obrigatórios, mas seria um diferencial se puder implementar. Sinta-se livre para testar com o que sente maior conforto.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Entrega
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Crie o seu repositório no Github e compartilhe com a gente.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Layouts
 
-### `npm run eject`
+### Tela inicial
+![](https://github.com/hugocalheira/rd-frontend-challenge/blob/master/layouts/1.png)
+### Tela inicial parcialmente preenchida
+![](https://github.com/hugocalheira/rd-frontend-challenge/blob/master/layouts/2.png)
+### Tela inicial preenchida
+![](https://github.com/hugocalheira/rd-frontend-challenge/blob/master/layouts/3.png)
+### Mouse sobre o button
+![](https://github.com/hugocalheira/rd-frontend-challenge/blob/master/layouts/4.png)
+### Lista de desenvolvedores
+![](https://github.com/hugocalheira/rd-frontend-challenge/blob/master/layouts/5.png)
+### Mouse sobre os cards
+![](https://github.com/hugocalheira/rd-frontend-challenge/blob/master/layouts/6.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Boa sorte!
