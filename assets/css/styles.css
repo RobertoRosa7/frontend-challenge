@@ -1,0 +1,10 @@
+@import "./normalize.css";
+@import "./login.css";
+
+:root {
+  --color-background: #aaa;
+  --color-light: #eee;
+  --color-white: white;
+  --color-default: linear-gradient(-45deg, #cecece 25%, #eee 100%);
+  --color-green: green;
+}
